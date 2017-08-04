@@ -3,10 +3,12 @@
 //  NSOpenPanel
 //
 //  Created by Fan's iMac  on 2017/8/3.
-//  Copyright © 2017年 Smartisan. All rights reserved.
+//  Copyright © 2017年 Fan. All rights reserved.
 //
 
 #import "AppDelegate.h"
+#import "FRWindow.h"
+#import "ViewController.h"
 
 @interface AppDelegate ()
 
@@ -24,4 +26,11 @@
 }
 
 
+- (IBAction)openDocument:(id)sender {
+    
+    NSWindow *frwindow = (FRWindow *)[NSApplication sharedApplication].mainWindow;
+    ViewController *vc = (ViewController *)[frwindow contentViewController];
+    [vc openDocument];
+
+}
 @end

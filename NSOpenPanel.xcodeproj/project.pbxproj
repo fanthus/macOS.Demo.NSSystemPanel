@@ -12,26 +12,8 @@
 		B532D2341F33181500F6CDBB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B532D2331F33181500F6CDBB /* ViewController.m */; };
 		B532D2361F33181500F6CDBB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B532D2351F33181500F6CDBB /* Assets.xcassets */; };
 		B532D2391F33181500F6CDBB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B532D2371F33181500F6CDBB /* Main.storyboard */; };
-		B532D2441F33181500F6CDBB /* NSOpenPanelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B532D2431F33181500F6CDBB /* NSOpenPanelTests.m */; };
-		B532D24F1F33181500F6CDBB /* NSOpenPanelUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B532D24E1F33181500F6CDBB /* NSOpenPanelUITests.m */; };
+		B532D2611F331B6600F6CDBB /* FRWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = B532D2601F331B6600F6CDBB /* FRWindow.m */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		B532D2401F33181500F6CDBB /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = B532D2211F33181500F6CDBB /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = B532D2281F33181500F6CDBB;
-			remoteInfo = NSOpenPanel;
-		};
-		B532D24B1F33181500F6CDBB /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = B532D2211F33181500F6CDBB /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = B532D2281F33181500F6CDBB;
-			remoteInfo = NSOpenPanel;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		B532D2291F33181500F6CDBB /* NSOpenPanel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NSOpenPanel.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -43,30 +25,16 @@
 		B532D2351F33181500F6CDBB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B532D2381F33181500F6CDBB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B532D23A1F33181500F6CDBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B532D23F1F33181500F6CDBB /* NSOpenPanelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NSOpenPanelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B532D2431F33181500F6CDBB /* NSOpenPanelTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSOpenPanelTests.m; sourceTree = "<group>"; };
 		B532D2451F33181500F6CDBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B532D24A1F33181500F6CDBB /* NSOpenPanelUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NSOpenPanelUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B532D24E1F33181500F6CDBB /* NSOpenPanelUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSOpenPanelUITests.m; sourceTree = "<group>"; };
 		B532D2501F33181500F6CDBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B532D25F1F331B6600F6CDBB /* FRWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FRWindow.h; sourceTree = "<group>"; };
+		B532D2601F331B6600F6CDBB /* FRWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FRWindow.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		B532D2261F33181500F6CDBB /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B532D23C1F33181500F6CDBB /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B532D2471F33181500F6CDBB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -90,8 +58,6 @@
 			isa = PBXGroup;
 			children = (
 				B532D2291F33181500F6CDBB /* NSOpenPanel.app */,
-				B532D23F1F33181500F6CDBB /* NSOpenPanelTests.xctest */,
-				B532D24A1F33181500F6CDBB /* NSOpenPanelUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -101,6 +67,8 @@
 			children = (
 				B532D22C1F33181500F6CDBB /* AppDelegate.h */,
 				B532D22D1F33181500F6CDBB /* AppDelegate.m */,
+				B532D25F1F331B6600F6CDBB /* FRWindow.h */,
+				B532D2601F331B6600F6CDBB /* FRWindow.m */,
 				B532D2321F33181500F6CDBB /* ViewController.h */,
 				B532D2331F33181500F6CDBB /* ViewController.m */,
 				B532D2351F33181500F6CDBB /* Assets.xcassets */,
@@ -157,42 +125,6 @@
 			productReference = B532D2291F33181500F6CDBB /* NSOpenPanel.app */;
 			productType = "com.apple.product-type.application";
 		};
-		B532D23E1F33181500F6CDBB /* NSOpenPanelTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = B532D2561F33181500F6CDBB /* Build configuration list for PBXNativeTarget "NSOpenPanelTests" */;
-			buildPhases = (
-				B532D23B1F33181500F6CDBB /* Sources */,
-				B532D23C1F33181500F6CDBB /* Frameworks */,
-				B532D23D1F33181500F6CDBB /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				B532D2411F33181500F6CDBB /* PBXTargetDependency */,
-			);
-			name = NSOpenPanelTests;
-			productName = NSOpenPanelTests;
-			productReference = B532D23F1F33181500F6CDBB /* NSOpenPanelTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		B532D2491F33181500F6CDBB /* NSOpenPanelUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = B532D2591F33181500F6CDBB /* Build configuration list for PBXNativeTarget "NSOpenPanelUITests" */;
-			buildPhases = (
-				B532D2461F33181500F6CDBB /* Sources */,
-				B532D2471F33181500F6CDBB /* Frameworks */,
-				B532D2481F33181500F6CDBB /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				B532D24C1F33181500F6CDBB /* PBXTargetDependency */,
-			);
-			name = NSOpenPanelUITests;
-			productName = NSOpenPanelUITests;
-			productReference = B532D24A1F33181500F6CDBB /* NSOpenPanelUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -204,20 +136,8 @@
 				TargetAttributes = {
 					B532D2281F33181500F6CDBB = {
 						CreatedOnToolsVersion = 8.3.3;
-						DevelopmentTeam = DZQ5YNVEU2;
+						DevelopmentTeam = 7PLGSDP5AT;
 						ProvisioningStyle = Automatic;
-					};
-					B532D23E1F33181500F6CDBB = {
-						CreatedOnToolsVersion = 8.3.3;
-						DevelopmentTeam = DZQ5YNVEU2;
-						ProvisioningStyle = Automatic;
-						TestTargetID = B532D2281F33181500F6CDBB;
-					};
-					B532D2491F33181500F6CDBB = {
-						CreatedOnToolsVersion = 8.3.3;
-						DevelopmentTeam = DZQ5YNVEU2;
-						ProvisioningStyle = Automatic;
-						TestTargetID = B532D2281F33181500F6CDBB;
 					};
 				};
 			};
@@ -235,8 +155,6 @@
 			projectRoot = "";
 			targets = (
 				B532D2281F33181500F6CDBB /* NSOpenPanel */,
-				B532D23E1F33181500F6CDBB /* NSOpenPanelTests */,
-				B532D2491F33181500F6CDBB /* NSOpenPanelUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -251,20 +169,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B532D23D1F33181500F6CDBB /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B532D2481F33181500F6CDBB /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -273,41 +177,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				B532D2341F33181500F6CDBB /* ViewController.m in Sources */,
+				B532D2611F331B6600F6CDBB /* FRWindow.m in Sources */,
 				B532D2311F33181500F6CDBB /* main.m in Sources */,
 				B532D22E1F33181500F6CDBB /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B532D23B1F33181500F6CDBB /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B532D2441F33181500F6CDBB /* NSOpenPanelTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B532D2461F33181500F6CDBB /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B532D24F1F33181500F6CDBB /* NSOpenPanelUITests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		B532D2411F33181500F6CDBB /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = B532D2281F33181500F6CDBB /* NSOpenPanel */;
-			targetProxy = B532D2401F33181500F6CDBB /* PBXContainerItemProxy */;
-		};
-		B532D24C1F33181500F6CDBB /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = B532D2281F33181500F6CDBB /* NSOpenPanel */;
-			targetProxy = B532D24B1F33181500F6CDBB /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		B532D2371F33181500F6CDBB /* Main.storyboard */ = {
@@ -415,10 +291,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = DZQ5YNVEU2;
+				DEVELOPMENT_TEAM = 7PLGSDP5AT;
 				INFOPLIST_FILE = NSOpenPanel/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = Smartisan.NSOpenPanel;
+				PRODUCT_BUNDLE_IDENTIFIER = NSOpenPanel;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -428,65 +304,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = DZQ5YNVEU2;
+				DEVELOPMENT_TEAM = 7PLGSDP5AT;
 				INFOPLIST_FILE = NSOpenPanel/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = Smartisan.NSOpenPanel;
+				PRODUCT_BUNDLE_IDENTIFIER = NSOpenPanel;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
-		B532D2571F33181500F6CDBB /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = DZQ5YNVEU2;
-				INFOPLIST_FILE = NSOpenPanelTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = Smartisan.NSOpenPanelTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NSOpenPanel.app/Contents/MacOS/NSOpenPanel";
-			};
-			name = Debug;
-		};
-		B532D2581F33181500F6CDBB /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = DZQ5YNVEU2;
-				INFOPLIST_FILE = NSOpenPanelTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = Smartisan.NSOpenPanelTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NSOpenPanel.app/Contents/MacOS/NSOpenPanel";
-			};
-			name = Release;
-		};
-		B532D25A1F33181500F6CDBB /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = DZQ5YNVEU2;
-				INFOPLIST_FILE = NSOpenPanelUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = Smartisan.NSOpenPanelUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = NSOpenPanel;
-			};
-			name = Debug;
-		};
-		B532D25B1F33181500F6CDBB /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = DZQ5YNVEU2;
-				INFOPLIST_FILE = NSOpenPanelUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = Smartisan.NSOpenPanelUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = NSOpenPanel;
 			};
 			name = Release;
 		};
@@ -509,22 +331,7 @@
 				B532D2551F33181500F6CDBB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-		};
-		B532D2561F33181500F6CDBB /* Build configuration list for PBXNativeTarget "NSOpenPanelTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				B532D2571F33181500F6CDBB /* Debug */,
-				B532D2581F33181500F6CDBB /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
-		B532D2591F33181500F6CDBB /* Build configuration list for PBXNativeTarget "NSOpenPanelUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				B532D25A1F33181500F6CDBB /* Debug */,
-				B532D25B1F33181500F6CDBB /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

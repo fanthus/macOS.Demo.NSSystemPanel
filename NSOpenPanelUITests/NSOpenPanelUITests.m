@@ -3,7 +3,7 @@
 //  NSOpenPanelUITests
 //
 //  Created by Fan's iMac  on 2017/8/3.
-//  Copyright © 2017年 Smartisan. All rights reserved.
+//  Copyright © 2017年 Fan. All rights reserved.
 //
 
 #import <XCTest/XCTest.h>
